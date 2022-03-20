@@ -10,4 +10,4 @@ all apps write with <strong> 0(n^2) </strong> complexity and if you think you ca
 </h3>
 <br>
 
-<img src="./prformance.png" alt="prformance" title="visual benchmark of this test">
+![visual benchmark of this test](https://github.com/amir-valizadeh/perfornamce-test/blob/main/prfornamce.png?raw=true)
