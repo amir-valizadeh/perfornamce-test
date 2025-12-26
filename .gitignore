@@ -1,0 +1,11 @@
+node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+rust/target/
+rust/Cargo.lock
+rust/main
+cpp/main
+cpp/test_main
+java/*.class
+.DS_Store
