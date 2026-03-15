@@ -11,3 +11,11 @@ all apps write with <strong> 0(n^2) </strong> complexity and if you think you ca
 <br>
 
 ![visual benchmark of this test](https://github.com/amir-valizadeh/perfornamce-test/blob/main/prfornamce.png?raw=true)
+
+## How to test this project
+We have added test suites for all implemented languages (JavaScript, Python, Go, Rust, C++, Java).
+You can run all tests using the provided bash script:
+```bash
+chmod +x run_tests.sh
+./run_tests.sh
+```
