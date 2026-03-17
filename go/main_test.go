@@ -7,6 +7,8 @@ func TestCountPrimes(t *testing.T) {
 		limit    int
 		expected int
 	}{
+		{limit: 0, expected: 0},
+		{limit: 2, expected: 0},
 		{limit: 10, expected: 4},
 		{limit: 20, expected: 8},
 		{limit: 100, expected: 25},
