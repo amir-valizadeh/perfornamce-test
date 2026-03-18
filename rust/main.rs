@@ -32,6 +32,8 @@ mod tests {
 
     #[test]
     fn test_count_primes() {
+        assert_eq!(count_primes(0), 0);
+        assert_eq!(count_primes(2), 0);
         assert_eq!(count_primes(10), 4);
         assert_eq!(count_primes(20), 8);
         assert_eq!(count_primes(100), 25);
