@@ -19,6 +19,8 @@ int countPrimes(int limit) {
 
 #ifdef TEST
 int main() {
+    assert(countPrimes(0) == 0);
+    assert(countPrimes(2) == 0);
     assert(countPrimes(10) == 4);
     assert(countPrimes(20) == 8);
     assert(countPrimes(100) == 25);
