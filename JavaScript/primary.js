@@ -1,3 +1,8 @@
+/**
+ * Counts prime numbers up to the given limit using O(n^2) complexity.
+ * @param {number} limit 
+ * @returns {number} number of primes
+ */
 function countPrimes(limit) {
     let count = 0;
     for (let i = 2; i < limit; i++) {
