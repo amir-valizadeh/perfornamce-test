@@ -1,4 +1,7 @@
-def count_primes(limit):
+def count_primes(limit: int) -> int:
+    """
+    Counts prime numbers up to the given limit using O(n^2) complexity.
+    """
     count = 0
     for c in range(2, limit):
         is_prime = True
