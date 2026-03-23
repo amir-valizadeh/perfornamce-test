@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// CountPrimes counts primes up to the given limit using O(n^2) complexity.
 func CountPrimes(limit int) int {
 	var number = 0
 	var isPrime = false
