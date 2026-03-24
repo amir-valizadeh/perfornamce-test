@@ -2,6 +2,9 @@
 #include <chrono>
 #include <cassert>
 
+/**
+ * Counts prime numbers up to the given limit using O(n^2) complexity.
+ */
 int countPrimes(int limit) {
     int count = 0;
     for (int i = 2; i < limit; i++) {
